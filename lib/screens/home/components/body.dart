@@ -4,6 +4,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../../constants.dart';
 import '../../../size_config.dart';
+import 'categories.dart';
 import 'discount_banner.dart';
 import 'home_header.dart';
 import 'icon_btn_with_counter.dart';
@@ -19,10 +20,13 @@ class Body extends StatelessWidget {
               HomeHeader(),
               SizedBox( height: getProportionateScreenWidth(30)),
               DiscountBanner(),
+              SizedBox( height: getProportionateScreenWidth(30)),
+              Categories(),
             ],
           ),
         )
     );
   }
 }
+
 
