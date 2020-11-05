@@ -15,7 +15,7 @@ class SpecialOffer extends StatelessWidget {
         Padding(
             padding: EdgeInsets.symmetric(horizontal: getProportionateScreenWidth(20)),
             child:   SectionTitle(
-              text: "Special for you",
+              title: "Special for you",
               press: (){},
             ),
         ),

@@ -5,11 +5,11 @@ import '../../../size_config.dart';
 class SectionTitle extends StatelessWidget {
   const SectionTitle({
     Key key,
-    @required this.text,
+    @required this.title,
     @required this.press,
   }) : super(key: key);
 
-  final String text;
+  final String title;
   final GestureTapCallback press;
 
   @override
@@ -20,7 +20,7 @@ class SectionTitle extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
-          Text(text,
+          Text(title,
               style: TextStyle(
                 fontSize: getProportionateScreenWidth(18),
                 color: Colors.black,
